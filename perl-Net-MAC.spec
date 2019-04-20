@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-MAC
 Version  : 2.103622
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/O/OL/OLIVER/Net-MAC-2.103622.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/O/OL/OLIVER/Net-MAC-2.103622.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libn/libnet-mac-perl/libnet-mac-perl_2.103622-2.debian.tar.xz
