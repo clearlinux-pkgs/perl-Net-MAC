@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-MAC
 Version  : 2.103622
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/O/OL/OLIVER/Net-MAC-2.103622.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/O/OL/OLIVER/Net-MAC-2.103622.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libn/libnet-mac-perl/libnet-mac-perl_2.103622-2.debian.tar.xz
@@ -81,7 +81,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Net-MAC
 cp %{_builddir}/Net-MAC-2.103622/LICENSE %{buildroot}/usr/share/package-licenses/perl-Net-MAC/c51ad390b8913daf34257c057bd5f3595d466c2d
-cp %{_builddir}/Net-MAC-2.103622/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Net-MAC/ffce0bbfc262ff7cefb5881ad710a9bb6bf6dd5f
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Net-MAC/ffce0bbfc262ff7cefb5881ad710a9bb6bf6dd5f
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -106,4 +106,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Net/MAC.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Net/MAC.pm
