@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-MAC
 Version  : 2.103622
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/O/OL/OLIVER/Net-MAC-2.103622.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/O/OL/OLIVER/Net-MAC-2.103622.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libn/libnet-mac-perl/libnet-mac-perl_2.103622-2.debian.tar.xz
@@ -106,4 +106,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Net/MAC.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Net/MAC.pm
